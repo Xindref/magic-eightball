@@ -1,0 +1,21 @@
+.eightball {
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    background-color: black;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.eightball-text {
+    pointer-events: none;
+    margin: 20px;
+    text-align: center;
+    font-size: 22px;
+    word-break: keep-all;
+    word-wrap: break-word;
+    color: rgb(255, 255, 255);
+}
